@@ -32,7 +32,8 @@
 
 /* Layout */
 .wrapper{
-    margin: 5rem 5rem;
+    max-width: 500px;
+    margin: 5rem auto;
 }
 /**************COLUMN STYLES  **************/
 
