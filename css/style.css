@@ -1,0 +1,35 @@
+/* General variables */
+:root{
+    --blue:#006cfa;
+}
+
+/**************GENERAL STYLES  **************/
+
+body{
+    font-size: 0.7rem;
+}
+
+/**************UTILITIES  **************/
+.txt-cent{
+    text-align: center;
+}
+.green{
+    background-color: green!important;
+}
+/**************LAYOUT  **************/
+header{
+    margin-bottom: 1rem;;
+}
+
+[class*="col-"]{
+    min-height: 2rem;
+    color: #fff;    
+    background-color: var(--blue);
+    border: white 1px solid;
+    line-height: 1rem;
+    vertical-align: middle;
+    padding: 0.5rem;
+}
+
+
+/* DEBUG */
