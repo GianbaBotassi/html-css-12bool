@@ -1,0 +1,64 @@
+/* General variables */
+:root{
+    --red:#ef1c26;
+    --brown:#472304;
+    --yellow:#fedb73;
+    --black:#0c0c0c;
+    --blue:#0202fc;
+}
+
+
+
+
+/**************UTILITIES  **************/
+
+/* Background color */
+
+.bg-red{
+    background-color: var(--red);
+}
+.bg-brown{
+    background-color: var(--brown);
+}
+.bg-yellow{
+    background-color: var(--yellow);
+}
+.bg-black{
+    background-color: var(--black);
+}
+.bg-blue{
+    background-color: var(--blue);
+}
+
+/* Layout */
+.wrapper{
+    margin: 5rem 5rem;
+}
+/**************COLUMN STYLES  **************/
+
+[class*="col-"]{
+    min-height: 3rem;
+}
+
+
+/**************flex rules  **************/
+
+.align-top{
+    align-items: flex-start;
+}
+.align-middle{
+    align-items: center;
+}
+.align-bottom{
+    align-items: flex-end;
+}
+
+.around-lg{
+    justify-content: space-around;
+}
+.between-lg{
+    justify-content: space-between;
+}
+
+/* DEBUG */
+
