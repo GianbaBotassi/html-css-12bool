@@ -1,0 +1,58 @@
+/* General variables */
+:root{
+    --blue:#006cfa;
+}
+
+/**************GENERAL STYLES  **************/
+
+body{
+    font-size: 0.7rem;
+}
+
+/**************UTILITIES  **************/
+.green{
+    background-color: lightgreen!important;
+    border: 1px solid var(--blue)!important;
+}
+/**************LAYOUT  **************/
+header{
+    margin-bottom: 1rem;;
+}
+
+[class*="col-"]{
+    min-height: 2rem;
+    color: #fff;    
+    background-color: var(--blue);
+    border: white 1px solid;
+    line-height: 1rem;
+    vertical-align: middle;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.double-height{
+    height: 4rem;
+}
+
+h3{
+    margin-top: 1rem;
+}
+
+.align-top{
+    align-items: flex-start;
+}
+.align-middle{
+    align-items: center;
+}
+.align-bottom{
+    align-items: flex-end;
+}
+
+.around-lg{
+    justify-content: space-around;
+}
+.between-lg{
+    justify-content: space-between;
+}
+
+/* DEBUG */
